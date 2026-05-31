@@ -23,3 +23,5 @@ modules:
         url: https://github.com/trueromanus/ArdorQuery
         tag: 0.0.20
         commit: 6204f927fec8a1bf7ebf2cc0ddd8596a09d6b377
+      - type: patch
+        path: fix-appdata.patch
