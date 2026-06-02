@@ -1,0 +1,50 @@
+From 019338c723c3a9572ef0f691b15ff14785053d2d Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Sun, 31 May 2026 23:07:16 +0300
+Subject: [PATCH] Fix appdata paper cuts
+
+Signed-off-by: Sabri Ünal <yakushabb@gmail.com>
+---
+ org.emptyflow.ArdorQuery.appdata.xml |  9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+
+diff --git a/org.emptyflow.ArdorQuery.appdata.xml b/org.emptyflow.ArdorQuery.appdata.xml
+index b707915..f84ecb0 100644
+--- a/org.emptyflow.ArdorQuery.appdata.xml
++++ b/org.emptyflow.ArdorQuery.appdata.xml
+@@ -4,7 +4,9 @@
+ 
+ 	<launchable type="desktop-id">org.emptyflow.ArdorQuery.desktop</launchable>
+ 	<metadata_license>CC0-1.0</metadata_license>
+-	<developer_name>Roman Vladimirov</developer_name>
++	<developer id="org.emptyflow">
++		<name>Roman Vladimirov</name>
++	</developer>
+ 	<project_license>GPL-3.0</project_license>
+ 
+ 	<name>ArdorQuery</name>
+@@ -15,12 +17,12 @@
+ 
+ 	<description>
+ 		<p>ArdorQuery is a UI tool for performing any HTTP(S) endpoints like REST API, HTML, Images, GraphQL, OData etc.</p>
+-		Similar to cURL and Postman. The main goal is to make an application with minimal user interface and keyboard oriented.
++		<p>Similar to cURL and Postman. The main goal is to make an application with minimal user interface and keyboard oriented.</p>
+ 	</description>
+ 
+ 	<screenshots>
+ 		<screenshot type="default">
+-			<image>https://raw.githubusercontent.com/trueromanus/ArdorQuery/0.0.17/src/linuxscreenshotmain.png</image>
++			<image>https://raw.githubusercontent.com/trueromanus/ArdorQuery/3442f05a96a3281d07993bbe004ee34068e01590/docs/images/index.png</image>
+ 		</screenshot>
+ 	</screenshots>
+ 
+@@ -41,5 +43,6 @@
+ 	<url type="homepage">https://trueromanus.github.io/ArdorQuery</url>
+ 	<url type="help">https://trueromanus.github.io/ArdorQuery</url>
+ 	<url type="contribute">https://github.com/trueromanus/ArdorQuery/blob/main/CONTRIBUTING.md</url>
++	<url type="vcs-browser">https://github.com/trueromanus/ArdorQuery</url>
+ 	<url type="donation">https://ko-fi.com/trueromanus</url>
+ </component>
+--
+libgit2 1.7.2
+
